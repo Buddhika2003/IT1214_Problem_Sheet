@@ -47,7 +47,7 @@ class Ticket{
 				canceledseats=canceledseats+1;
 				System.out.println("w");
 				int a=j+1;
-				while(j<no_of_seatsbooked-1 && a<no_of_seatsbooked-1){
+				while(j<no_of_seatsbooked && a<no_of_seatsbooked){
 					bookedseat[j]=bookedseat[a];
 					System.out.println("a");
 					j++;
